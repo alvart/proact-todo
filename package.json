@@ -1,0 +1,53 @@
+{
+  "name": "proact-todo",
+  "version": "1.0.0",
+  "description": "The \"Hello World!\" of web frameworks: An app displaying a list of to-do tasks.",
+  "main": "src/index.js",
+  "directories": {
+    "lib": "src"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack",
+    "webpack:server": "cross-env NODE_ENV=development webpack-dev-server --progress --inline --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvart/proact-todo.git"
+  },
+  "keywords": [
+    "purescript",
+    "proact",
+    "react",
+    "todo",
+    "app",
+    "dsl",
+    "lenses"
+  ],
+  "author": {
+    "name": "Jon Alvart",
+    "email": "code.alvart@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alvart/proact-todo/issues"
+  },
+  "homepage": "https://github.com/alvart/proact-todo#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "css-loader": "^3.6.0",
+    "html-webpack-plugin": "^4.3.0",
+    "purescript-psa": "^0.7.3",
+    "purs-loader": "^3.7.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
